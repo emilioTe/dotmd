@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="mdApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dot md - a markdown previewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <div class="container" ng-controller="mdEditor">
+    <div class="row">
+      <div class="col-sm-6">
+        <textarea class="form-control md-input" ng-model="mdInput" ng-change="update()"></textarea>
+      </div>
+
+      <div class="col-sm-6 md-output">
+      </div>
+    </div>
+  </div>
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/marked/0.2.9/marked.min.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
+
