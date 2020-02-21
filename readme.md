@@ -3,5 +3,5 @@ a markdown previewer
 
 ***
 
-http://emiliote.github.io/dotmd
+http://thatemilio.github.io/dotmd
 
